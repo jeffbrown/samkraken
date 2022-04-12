@@ -3,7 +3,6 @@ package samkraken
 class App {
     static void main(String[] args) {
         def bundle = ResourceBundle.getBundle('versions')
-        println bundle.getString('version.release')
 
         def version = [:]
         version.major = bundle.getString('version.major')
